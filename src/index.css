@@ -1,0 +1,380 @@
+:root {
+  --clr-white: #fff;
+  /*used for backgrounds*/
+  --clr-grey-1: hsl(210, 36%, 96%);
+  --clr-grey-2: rgb(245, 245, 245);
+  --clr-grey-3: rgb(234, 238, 250);
+  --clr-grey-4: rgba(255, 255, 255, 0.692);
+  --clr-grey-5: rgb(119, 119, 119);
+  --clr-grey-7: hsl(210, 36%, 96%);
+  --clr-grey-10: rgb(255, 238, 238);
+  /*used for shadow*/
+  --clr-grey-6: rgb(250, 250, 250);
+  /*usef for border color*/
+  --clr-grey-8: #ccc;
+  --clr-grey-9: rgb(240, 240, 240);
+  /*primary blue*/
+  --clr-blue-1: rgb(94, 140, 199);
+  /*font colors*/
+  --clr-blue-2: rgb(0, 0, 109);
+  --clr-blue-3: rgba(0, 0, 109, 0.726);
+  --clr-blue-4: rgb(7, 7, 77);
+  --clr-red: rgb(219, 0, 0);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: var(--clr-grey-1);
+  line-height: 1;
+  font-size: 12px;
+}
+
+#container {
+  background: var(--clr-white);
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  display: flex;
+}
+
+.one {
+  width: 300px;
+  margin: 0px;
+  border: 0px;
+}
+
+.two {
+  position: relative;
+  border: 0px;
+  width: 400px;
+  margin-left: 70px;
+}
+
+.header {
+  height: 120px;
+}
+
+.backImg {
+  width: 300px;
+  height: 600px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.gender {
+  float: left;
+  margin-top: 6px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+input[type='radio'],
+.add-options input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.gender input[type='radio'] + img {
+  cursor: pointer;
+  width: 150px;
+  height: 110px;
+  border-radius: 5px;
+}
+
+.gender [type='radio']:checked + img {
+  outline: 1px solid var(--clr-blue-1);
+}
+
+.add-options {
+  width: 100%;
+  font-size: 11px;
+  float: left;
+  margin-top: -5px;
+}
+
+.add-options p {
+  float: left;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+.steps {
+  display: flex;
+  justify-content: left;
+  margin-top: 0rem;
+}
+
+.steps .step,
+.step-active,
+.step-visited {
+  margin-top: 80px;
+  margin-right: 20px;
+  display: flex;
+  bottom: 0px;
+}
+
+.steps .step .numeration,
+.step-active .numeration,
+.step-visited .numeration,
+.step-visited .visited-tick {
+  float: left;
+  background-color: var(--clr-grey-2);
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 100%;
+  padding-top: 8%;
+  padding-bottom: 4px;
+}
+
+.step-visited .visited-tick {
+  background-color: var(--clr-grey-3);
+  color: var(--clr-blue-1);
+}
+
+.step-visited .numeration {
+  width: 0px;
+  height: 0px;
+  color: transparent;
+  margin: 0 0 0 0;
+  padding: 0 0;
+}
+
+.steps .step .visited-tick,
+.step-active .visited-tick {
+  width: 0px;
+  height: 0px;
+  color: transparent;
+  margin: 0 0 0 0;
+  padding: 0 0;
+}
+
+.steps .step .page-label,
+.steps .step-active .page-label,
+.steps .step-visited .page-label {
+  color: var(--clr-blue-3);
+  float: left;
+  margin-top: 5%;
+}
+
+.steps .step-active .numeration {
+  background-color: var(--clr-blue-1);
+  color: var(--clr-grey-4);
+}
+
+.steps .step-active .page-label {
+  color: var(--clr-blue-2);
+}
+
+.steps .step-active button,
+.step button,
+.step-visited button {
+  display: block;
+  background-color: transparent;
+  border: 0px;
+  font-size: inherit;
+  font-family: inherit;
+  padding: inherit;
+  cursor: pointer;
+}
+
+.two hr {
+  margin-top: 10px;
+  border: 0px none;
+  height: 1px;
+  width: 100%;
+  background-color: var(--clr-grey-2);
+}
+
+.page-name {
+  color: var(--clr-blue-4);
+  margin-top: 30px;
+}
+
+.page-name p {
+  margin-bottom: -5px;
+  font-size: 10px;
+  color: var(--clr-grey-5);
+}
+
+#bottom_line {
+  margin-top: 20px;
+  height: 1px;
+}
+
+.form {
+  color: var(--clr-blue-2);
+  font-size: 10px;
+  margin-top: 30px;
+  line-height: 2;
+  width: 400px;
+  height: 300px;
+}
+
+.form input,
+label {
+  display: block;
+}
+
+.form textarea {
+  resize: none;
+  width: 100%;
+  color: var(--clr-blue-2);
+  font-size: 11px;
+}
+
+.form input,
+textarea {
+  border: 1px solid var(--clr-grey-2);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 10px 8px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px var(--clr-grey-6);
+}
+
+.form input:focus,
+textarea:focus {
+  outline: 1px solid var(--clr-blue-1);
+}
+
+.form input[type='text'],
+input[type='email'] {
+  color: var(--clr-blue-2);
+  font-size: 11px;
+}
+
+.form input[type='date'] {
+  background-color: var(--clr-grey-7);
+  padding: 7px 8px;
+  color: var(--clr-blue-2);
+  font-size: 11px;
+  border-color: var(--clr-grey-8);
+}
+
+.form-control {
+  width: 100%;
+  float: left;
+}
+
+.form-control input {
+  width: 100%;
+}
+
+.form-control-left {
+  width: 47%;
+  float: left;
+}
+.form-control-left input {
+  width: 100%;
+}
+
+.form-control-right {
+  width: 47%;
+  float: right;
+}
+.form-control-right input {
+  width: 100%;
+}
+
+.form button {
+  font-size: 10px;
+  float: right;
+  background: var(--clr-blue-1);
+  color: var(--clr-white);
+  border-color: transparent;
+  margin-top: 1rem;
+  padding: 13px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options {
+  width: 100%;
+  font-size: 11px;
+  float: left;
+  clear: none;
+}
+
+.options label {
+  width: 40%;
+  float: left;
+  clear: none;
+  display: block;
+  cursor: pointer;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+.options p {
+  float: left;
+  clear: none;
+  margin: 2px 0 0 2px;
+}
+
+.checkmark {
+  float: left;
+  top: 0;
+  left: 0;
+  height: 12px;
+  width: 12px;
+  font-size: 9px;
+  background-color: var(--clr-white);
+  border: 1px solid var(--clr-grey-9);
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 6px;
+  margin-right: 5px;
+  color: transparent;
+  line-height: 1.5;
+  box-shadow: 1px 2px 1px var(--clr-grey-6);
+  cursor: pointer;
+  padding-left: 1px;
+}
+
+input:checked ~ .checkmark {
+  color: var(--clr-white);
+  background-color: var(--clr-blue-1);
+  border: 1px solid var(--clr-blue-1);
+}
+
+#back {
+  background-color: var(--clr-white);
+  float: right;
+  color: var(--clr-blue-2);
+  font-weight: bold;
+}
+
+label.error,
+span.error {
+  color: var(--clr-red);
+}
+
+span.error {
+  font-size: 9px;
+}
+
+input.error {
+  border: 1px solid var(--clr-red);
+  margin-bottom: 0px;
+  background: url('./assets/error-mesage-icon.png') no-repeat right,
+    var(--clr-grey-10);
+  background-size: 12px;
+  background-position-x: 95%;
+  padding-right: 25px;
+}
+
+input:focus.error {
+  outline: 0px;
+}
