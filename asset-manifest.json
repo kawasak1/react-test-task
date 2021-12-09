@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/react-test-task/static/css/main.f05f13cf.chunk.css",
-    "main.js": "/react-test-task/static/js/main.891a920e.chunk.js",
-    "main.js.map": "/react-test-task/static/js/main.891a920e.chunk.js.map",
+    "main.css": "/react-test-task/static/css/main.5208b1e9.chunk.css",
+    "main.js": "/react-test-task/static/js/main.96d89d13.chunk.js",
+    "main.js.map": "/react-test-task/static/js/main.96d89d13.chunk.js.map",
     "runtime-main.js": "/react-test-task/static/js/runtime-main.b0f7f6ab.js",
     "runtime-main.js.map": "/react-test-task/static/js/runtime-main.b0f7f6ab.js.map",
-    "static/js/2.9076260e.chunk.js": "/react-test-task/static/js/2.9076260e.chunk.js",
-    "static/js/2.9076260e.chunk.js.map": "/react-test-task/static/js/2.9076260e.chunk.js.map",
+    "static/js/2.a2382cfd.chunk.js": "/react-test-task/static/js/2.a2382cfd.chunk.js",
+    "static/js/2.a2382cfd.chunk.js.map": "/react-test-task/static/js/2.a2382cfd.chunk.js.map",
     "index.html": "/react-test-task/index.html",
-    "static/css/main.f05f13cf.chunk.css.map": "/react-test-task/static/css/main.f05f13cf.chunk.css.map",
-    "static/js/2.9076260e.chunk.js.LICENSE.txt": "/react-test-task/static/js/2.9076260e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/react-test-task/static/media/error-mesage-icon.cb6ad264.png",
-    "static/media/eve-active.c08ffe21.png": "/react-test-task/static/media/eve-active.c08ffe21.png",
+    "static/css/main.5208b1e9.chunk.css.map": "/react-test-task/static/css/main.5208b1e9.chunk.css.map",
+    "static/js/2.a2382cfd.chunk.js.LICENSE.txt": "/react-test-task/static/js/2.a2382cfd.chunk.js.LICENSE.txt",
+    "static/media/eve-active.ffa630c3.png": "/react-test-task/static/media/eve-active.ffa630c3.png",
     "static/media/eve.ff6492bc.png": "/react-test-task/static/media/eve.ff6492bc.png",
     "static/media/first.28d94c08.jpg": "/react-test-task/static/media/first.28d94c08.jpg",
-    "static/media/second.1e5a2b92.jpg": "/react-test-task/static/media/second.1e5a2b92.jpg",
-    "static/media/third.870a8233.jpg": "/react-test-task/static/media/third.870a8233.jpg",
-    "static/media/wall-e-active.53c4b299.png": "/react-test-task/static/media/wall-e-active.53c4b299.png",
+    "static/media/second.d4f1b1d0.jpg": "/react-test-task/static/media/second.d4f1b1d0.jpg",
+    "static/media/third.c46167a0.jpg": "/react-test-task/static/media/third.c46167a0.jpg",
     "static/media/wall-e.2be25662.png": "/react-test-task/static/media/wall-e.2be25662.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b0f7f6ab.js",
-    "static/js/2.9076260e.chunk.js",
-    "static/css/main.f05f13cf.chunk.css",
-    "static/js/main.891a920e.chunk.js"
+    "static/js/2.a2382cfd.chunk.js",
+    "static/css/main.5208b1e9.chunk.css",
+    "static/js/main.96d89d13.chunk.js"
   ]
 }
